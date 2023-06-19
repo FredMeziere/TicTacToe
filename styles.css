@@ -1,5 +1,6 @@
 body {
     background-color: azure;
+    font-family: sans-serif;
 }
 
 main {
@@ -7,6 +8,11 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .maindiv {
@@ -35,6 +41,11 @@ main {
     height: 200px;
     background-color: lightblue;
     margin: 2px;
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .case:hover {
