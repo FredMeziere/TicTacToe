@@ -8,11 +8,28 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+font-size: 48px;
+color: rgb(74, 185, 221);
+font-weight: 900;
+}
+
 .score {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    font-size: 32px;
+    color: rgb(74, 185, 221);
+    font-weight: 900;
 }
 
 .maindiv {
@@ -37,8 +54,8 @@ main {
 }
 
 .case {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: lightblue;
     margin: 2px;
     font-size: 80px;
@@ -52,3 +69,11 @@ main {
     background-color: rgb(74, 185, 221);
 }
 
+button {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(74, 185, 221);
+}
