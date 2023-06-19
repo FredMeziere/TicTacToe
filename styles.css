@@ -1,0 +1,43 @@
+body {
+    background-color: azure;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.case {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 2px;
+}
+
+.case:hover {
+    background-color: rgb(74, 185, 221);
+}
+
